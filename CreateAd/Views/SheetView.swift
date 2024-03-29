@@ -27,3 +27,7 @@ struct SheetView: View {
         }
     }
 }
+
+#Preview {
+    SheetView(newAd: NewlyCleatedAd(title: "Something", location: "Athens", price: nil, description: nil))
+}

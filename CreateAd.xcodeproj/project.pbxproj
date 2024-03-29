@@ -24,6 +24,7 @@
 		8C99FAAA2BADD2FB00415DFE /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99FAA92BADD2FB00415DFE /* SheetView.swift */; };
 		8C99FAAC2BADD32800415DFE /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99FAAB2BADD32800415DFE /* TextFieldClearButton.swift */; };
 		8C99FAAE2BADD35500415DFE /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99FAAD2BADD35500415DFE /* CustomButton.swift */; };
+		8CC150A92BB6D0C5000D409D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC150A82BB6D0C5000D409D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		8C99FAA92BADD2FB00415DFE /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
 		8C99FAAB2BADD32800415DFE /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
 		8C99FAAD2BADD35500415DFE /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		8CC150A82BB6D0C5000D409D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8CC150AC2BB6D2D7000D409D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +120,9 @@
 			children = (
 				8C99FA682BACC97500415DFE /* Assets.xcassets */,
 				8C99FAA12BADD15800415DFE /* Extensions */,
+				8CC150AC2BB6D2D7000D409D /* Info.plist */,
 				8C99FAA02BADD10500415DFE /* Models */,
+				8CC150712BB6CFB9000D409D /* Preview Content */,
 				8C99FA9F2BADD0E700415DFE /* RemoteCalls */,
 				8C99FA9D2BADD0AB00415DFE /* RootView */,
 				8C99FAA62BADD2A600415DFE /* ViewModels */,
@@ -195,6 +200,14 @@
 				8C99FAA72BADD2CC00415DFE /* CreateAdViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8CC150712BB6CFB9000D409D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8CC150A82BB6D0C5000D409D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C99FA9C2BADCFCC00415DFE /* README.md in Resources */,
+				8CC150A92BB6D0C5000D409D /* Preview Assets.xcassets in Resources */,
 				8C99FA692BACC97500415DFE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

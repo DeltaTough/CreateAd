@@ -5,7 +5,7 @@
 //  Created by Dimitrios Tsoumanis on 22/03/2024.
 //
 
-import Foundation
+import Combine
 import SwiftUI
 
 final class CreateAdViewModel: ObservableObject {
@@ -49,7 +49,6 @@ final class CreateAdViewModel: ObservableObject {
                 guard let self = self else { return }
                 if $0.map({ $0.id }).contains(self.locationID) {
                     self.showMenu = false
-                    //self.locationID = ""
                 }
             })
             .store(in: &cancellables)
